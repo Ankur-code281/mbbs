@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Apply for MBBS abroad in top countries. Get guidance on eligibility, admission process, and benefits."
+    />
+    <title>Study MBBS Abroad</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=GA_TRACKING_ID"
+    ></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#1E40AF",
+              secondary: "#FACC15",
+            },
+          },
+        },
+      };
+    </script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "GA_TRACKING_ID");
+    </script>
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = "2.0";
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(
+        window,
+        document,
+        "script",
+        "https://connect.facebook.net/en_US/fbevents.js"
+      );
+      fbq("init", "FB_PIXEL_ID");
+      fbq("track", "PageView");
+    </script>
+  </head>
+  <body class="bg-gray-50">
+    <header class="bg-primary text-white text-center py-6">
+      <h1 class="text-4xl font-bold">Study MBBS Abroad</h1>
+      <p class="text-lg">Secure your admission in top medical universities.</p>
+    </header>
+
+    <section
+      class="hero text-center p-10 bg-cover bg-center flex items-center justify-center h-[50vh]"
+      style="background-image: url('hero-image.jpg')"
+    >
+      <div class="bg-black bg-opacity-50 p-6 rounded-lg text-white">
+        <h2 class="text-4xl font-bold">Apply Now for MBBS Abroad</h2>
+        <p class="mt-4">
+          Join thousands of students pursuing medical education overseas.
+        </p>
+        <a
+          href="#apply"
+          class="mt-6 inline-block bg-secondary text-black px-6 py-3 rounded-lg font-semibold"
+          >Apply Now</a
+        >
+      </div>
+    </section>
+
+    <section class="p-10 text-center">
+      <h2 class="text-3xl font-bold mb-6">Why Study MBBS Abroad?</h2>
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="p-4 bg-white shadow-md rounded-lg">
+          Affordable tuition fees
+        </div>
+        <div class="p-4 bg-white shadow-md rounded-lg">
+          Globally recognized degrees
+        </div>
+        <div class="p-4 bg-white shadow-md rounded-lg">
+          High-quality education
+        </div>
+        <div class="p-4 bg-white shadow-md rounded-lg">
+          Exposure to international standards
+        </div>
+      </div>
+    </section>
+
+    <section class="p-10 bg-gray-200 text-center">
+      <h2 class="text-3xl font-bold mb-6">Top Countries</h2>
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <div class="bg-white p-4 rounded-lg shadow">Russia</div>
+        <div class="bg-white p-4 rounded-lg shadow">Uzbekistan</div>
+        <div class="bg-white p-4 rounded-lg shadow">Kazakhstan</div>
+        <div class="bg-white p-4 rounded-lg shadow">Philippines</div>
+        <div class="bg-white p-4 rounded-lg shadow">Georgia</div>
+        <div class="bg-white p-4 rounded-lg shadow">Kyrgyzstan</div>
+        <div class="bg-white p-4 rounded-lg shadow">Egypt</div>
+      </div>
+    </section>
+
+    <section class="p-10 text-center">
+      <h2 class="text-3xl font-bold mb-6">Admission Process & Eligibility</h2>
+      <div class="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
+        <div class="bg-white p-4 rounded-lg shadow">Submit Application</div>
+        <div class="bg-white p-4 rounded-lg shadow">Receive Offer Letter</div>
+        <div class="bg-white p-4 rounded-lg shadow">Pay Tuition Fees</div>
+        <div class="bg-white p-4 rounded-lg shadow">Apply for Visa</div>
+        <div class="bg-white p-4 rounded-lg shadow">
+          Travel & Join University
+        </div>
+      </div>
+    </section>
+
+    <section id="apply" class="p-10 bg-primary text-white text-center">
+      <h2 class="text-3xl font-bold mb-4">Apply Now</h2>
+      <form
+        id="applicationForm"
+        action="submit.php"
+        method="POST"
+        class="bg-white text-black p-6 rounded-lg max-w-md mx-auto shadow-lg"
+      >
+        <input
+          type="text"
+          name="name"
+          placeholder="Full Name"
+          class="w-full p-3 mb-4 border rounded"
+          required
+        />
+        <input
+          type="email"
+          name="email"
+          placeholder="Email"
+          class="w-full p-3 mb-4 border rounded"
+          required
+        />
+        <input
+          type="tel"
+          name="phone"
+          placeholder="Phone Number"
+          class="w-full p-3 mb-4 border rounded"
+          required
+        />
+        <select name="country" class="w-full p-3 mb-4 border rounded" required>
+          <option value="">Select Country Preference</option>
+          <option>Russia</option>
+          <option>Uzbekistan</option>
+          <option>Kazakhstan</option>
+          <option>Philippines</option>
+          <option>Georgia</option>
+          <option>Kyrgyzstan</option>
+          <option>Egypt</option>
+        </select>
+        <button
+          type="submit"
+          class="w-full bg-secondary text-black p-3 rounded font-bold"
+        >
+          Submit
+        </button>
+      </form>
+    </section>
+
+    <script>
+      document
+        .getElementById("applicationForm")
+        .addEventListener("submit", function (event) {
+          event.preventDefault();
+          const name = document.getElementById("name").value.trim();
+          const email = document.getElementById("email").value.trim();
+          const phone = document.getElementById("phone").value.trim();
+          const country = document.getElementById("country").value;
+
+          if (!name || !email || !phone || !country) {
+            alert("Please fill all fields");
+            return;
+          }
+          alert("Application submitted successfully!");
+        });
+    </script>
+  </body>
+</html>
